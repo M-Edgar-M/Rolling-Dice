@@ -7,7 +7,7 @@ font-family: 'Ubuntu', sans-serif; for h1
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     box-sizing: border-box;
 }
 
@@ -42,6 +42,15 @@ html {
     font-size: 4.2rem;
     margin-left: 2rem;
 }
+.btn {
+    padding: 1.4rem 2.2rem;
+    border: none;
+    border-radius: 0.6rem;
+    background-color: honeydew;
+    font-size: 2rem;
+    font-family: 'Shippori Mincho', serif;
+    letter-spacing: 0.26rem;
+} 
 
 
 #content-wrapper {
@@ -80,7 +89,7 @@ html {
     
 }
 
-#left_side .btn_roll {
+/* #left_side .btn_roll {
     padding: 1.4rem 2.2rem;
     border: none;
     border-radius: 0.6rem;
@@ -88,9 +97,9 @@ html {
     font-size: 2rem;
     font-family: 'Shippori Mincho', serif;
     letter-spacing: 0.26rem;
-}
+} */
 
-#left_side .btn_hold {
+/* #left_side .btn_hold {
     padding: 1.4rem 2.2rem;
     border: none;
     border-radius: 0.6rem;
@@ -98,7 +107,7 @@ html {
     font-size: 2rem;
     font-family: 'Shippori Mincho', serif;
     letter-spacing: 0.26rem;
-}
+} */
 
 
 #mid_content {
@@ -111,7 +120,7 @@ html {
 }
 
 
-#mid_content button {
+/* #mid_content button {
     padding: 1.4rem 2.2rem;
     border: none;
     border-radius: 0.6rem;
@@ -119,11 +128,13 @@ html {
     font-size: 2rem;
     font-family: 'Shippori Mincho', serif;
     letter-spacing: 0.26rem;
-}
+} */
 #mid_content img {
+    width: 90%;
     height: 14rem;
-    width: 14rem;
-    transform: translateY(-8rem);
+    width: 14rem; 
+    transform: translateY(-7rem);
+
 }
 #mid_content p {
     font-size: 1.6rem;
@@ -156,7 +167,7 @@ html {
     align-self: stretch;
     text-align: center;
 }
-#right_side .btn_roll {
+/* #right_side .btn_roll {
     padding: 1.4rem 2.2rem;
     border: none;
     border-radius: 0.6rem;
@@ -164,8 +175,8 @@ html {
     font-size: 2rem;
     font-family: 'Shippori Mincho', serif;
     letter-spacing: 0.26rem;
-}
-#right_side .btn_hold {
+} */
+/* #right_side .btn_hold {
     padding: 1.4rem 2.2rem;
     border: none;
     border-radius: 0.6rem;
@@ -173,4 +184,4 @@ html {
     font-size: 2rem;
     font-family: 'Shippori Mincho', serif;
     letter-spacing: 0.26rem;
-}
+} */
