@@ -4,26 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kavivanar&family=Roboto+Slab&family=Shippori+Mincho&family=Ubuntu:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <div id="container">
-      <div id="content-wrapper">
-        <div id="left_side">
-            <h1>Plaer 1</h1>
-            <div class="score"></div>
-            <div class="current_score"></div>
-        </div>
-        <div id="mid_content"></div>
+    <div id="logo">
+      <img
+        src="https://i.pinimg.com/600x315/eb/f0/fb/ebf0fbbe2959bb3ff05b6f3b1e9ef6aa.jpg"
+        alt="Pigy"
+      />
+      <h1>Rolling Dice</h1>
+    </div>
+    <div id="content-wrapper">
+      <div id="left_side">
+        <h1>Player 1</h1>
+        <div class="current_score">22</div>
+        <button class="btn_roll">Button Roll</button>
+        <button class="btn_hold">Button Hold</button>
+      </div>
+      <div id="mid_content">
+        <button class="btn_newgame">New Game</button>
+        <img src="img/dice-1.png" alt="Dice" id="dice_img" />
+        <p>All Rights Reserved &copy;</p>
+      </div>
 
-        <div id="right_side">
-            <h1>Player 2</h1>
-            <div class="score"></div>
-            <div class="current_score"></div>
-        </div>
+      <div id="right_side">
+        <h1>Player 2</h1>
+        <div class="current_score">55</div>
+        <button class="btn_roll">Button Roll</button>
+        <button class="btn_hold">Button Hold</button>
       </div>
     </div>
+
+    <footer>
+      <div class="footer">
+        <p>
+          Player Rolls the Dice, if it's not 1, the game continuous and the
+          Player can Hold the Score untill he gets 101. If Dice is 1 then Player
+          loses the progress and the turn is passed to the other Plater.
+        </p>
+      </div>
+    </footer>
 
     <script src="main.js"></script>
   </body>
