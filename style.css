@@ -58,7 +58,6 @@ html {
 }
 
 
-
 #content-wrapper {
     width: 60vw;
     height: 80vh;
@@ -195,3 +194,26 @@ html {
     font-family: 'Shippori Mincho', serif;
     letter-spacing: 0.26rem;
 } */
+
+footer {
+    height: inherit;
+
+}
+
+.footer {
+    background-color: #C0C0C0;
+    width: 33%;
+    margin: -2rem auto;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: -2rem;
+    margin-bottom: auto; */
+    font-size: 1.6rem;
+    text-align: center;
+    border: none;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.footer p {
+    padding-top: 0.5rem;
+}
